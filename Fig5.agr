@@ -1,0 +1,1028 @@
+# Grace project file
+#
+@version 50125
+@page size 792, 612
+@page scroll 5%
+@page inout 5%
+@link page off
+@map font 0 to "Times-Roman", "Times-Roman"
+@map font 1 to "Times-Italic", "Times-Italic"
+@map font 2 to "Times-Bold", "Times-Bold"
+@map font 3 to "Times-BoldItalic", "Times-BoldItalic"
+@map font 4 to "Helvetica", "Helvetica"
+@map font 5 to "Helvetica-Oblique", "Helvetica-Oblique"
+@map font 6 to "Helvetica-Bold", "Helvetica-Bold"
+@map font 7 to "Helvetica-BoldOblique", "Helvetica-BoldOblique"
+@map font 8 to "Courier", "Courier"
+@map font 9 to "Courier-Oblique", "Courier-Oblique"
+@map font 10 to "Courier-Bold", "Courier-Bold"
+@map font 11 to "Courier-BoldOblique", "Courier-BoldOblique"
+@map font 12 to "Symbol", "Symbol"
+@map font 13 to "ZapfDingbats", "ZapfDingbats"
+@map color 0 to (255, 255, 255), "white"
+@map color 1 to (0, 0, 0), "black"
+@map color 2 to (255, 0, 0), "red"
+@map color 3 to (0, 255, 0), "green"
+@map color 4 to (0, 0, 255), "blue"
+@map color 5 to (255, 255, 0), "yellow"
+@map color 6 to (188, 143, 143), "brown"
+@map color 7 to (220, 220, 220), "grey"
+@map color 8 to (148, 0, 211), "violet"
+@map color 9 to (0, 255, 255), "cyan"
+@map color 10 to (255, 0, 255), "magenta"
+@map color 11 to (255, 165, 0), "orange"
+@map color 12 to (114, 33, 188), "indigo"
+@map color 13 to (103, 7, 72), "maroon"
+@map color 14 to (64, 224, 208), "turquoise"
+@map color 15 to (0, 139, 0), "green4"
+@reference date 0
+@date wrap off
+@date wrap year 1950
+@default linewidth 1.0
+@default linestyle 1
+@default color 1
+@default pattern 1
+@default font 0
+@default char size 1.000000
+@default symbol size 1.000000
+@default sformat "%.8g"
+@background color 0
+@page background fill on
+@timestamp off
+@timestamp 0.03, 0.03
+@timestamp color 1
+@timestamp rot 0
+@timestamp font 0
+@timestamp char size 1.000000
+@timestamp def "Thu Sep 10 22:12:50 2020"
+@r0 off
+@link r0 to g0
+@r0 type above
+@r0 linestyle 1
+@r0 linewidth 1.0
+@r0 color 1
+@r0 line 0, 0, 0, 0
+@r1 off
+@link r1 to g0
+@r1 type above
+@r1 linestyle 1
+@r1 linewidth 1.0
+@r1 color 1
+@r1 line 0, 0, 0, 0
+@r2 off
+@link r2 to g0
+@r2 type above
+@r2 linestyle 1
+@r2 linewidth 1.0
+@r2 color 1
+@r2 line 0, 0, 0, 0
+@r3 off
+@link r3 to g0
+@r3 type above
+@r3 linestyle 1
+@r3 linewidth 1.0
+@r3 color 1
+@r3 line 0, 0, 0, 0
+@r4 off
+@link r4 to g0
+@r4 type above
+@r4 linestyle 1
+@r4 linewidth 1.0
+@r4 color 1
+@r4 line 0, 0, 0, 0
+@g0 on
+@g0 hidden false
+@g0 type XY
+@g0 stacked false
+@g0 bar hgap 0.000000
+@g0 fixedpoint off
+@g0 fixedpoint type 0
+@g0 fixedpoint xy 0.000000, 0.000000
+@g0 fixedpoint format general general
+@g0 fixedpoint prec 6, 6
+@with g0
+@    world 1350000000, 0, 1600000000, 0.5
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.685294, 1.144118, 0.950000
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50000000
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.400000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type both
+@    xaxis  tick spec 8
+@    xaxis  tick major 0, 1.3567e+09
+@    xaxis  ticklabel 0, "2013"
+@    xaxis  tick major 1, 1.3885e+09
+@    xaxis  ticklabel 1, "2014"
+@    xaxis  tick major 2, 1.42e+09
+@    xaxis  ticklabel 2, "2015"
+@    xaxis  tick major 3, 1.452e+09
+@    xaxis  ticklabel 3, "2016"
+@    xaxis  tick major 4, 1.4832e+09
+@    xaxis  ticklabel 4, "2017"
+@    xaxis  tick major 5, 1.515e+09
+@    xaxis  ticklabel 5, "2018"
+@    xaxis  tick major 6, 1.546e+09
+@    xaxis  ticklabel 6, "2019"
+@    xaxis  tick major 7, 1.578e+09
+@    xaxis  ticklabel 7, "2020"
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "\f{Symbol}a"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.600000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.85, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s1 hidden false
+@    s1 type xydy
+@    s1 symbol 1
+@    s1 symbol size 0.350000
+@    s1 symbol color 1
+@    s1 symbol pattern 1
+@    s1 symbol fill color 1
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 1
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/cygdrive/f/R/RUGARCH/Bitstamp20200621/Filtered-R/Daily-548/alpha-utime"
+@    s1 legend  ""
+@g1 on
+@g1 hidden false
+@g1 type XY
+@g1 stacked false
+@g1 bar hgap 0.000000
+@g1 fixedpoint off
+@g1 fixedpoint type 0
+@g1 fixedpoint xy 0.000000, 0.000000
+@g1 fixedpoint format general general
+@g1 fixedpoint prec 6, 6
+@with g1
+@    world 1350000000, 0.6, 1600000000, 1
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.367647, 1.144118, 0.632353
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50000000
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.400000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type both
+@    xaxis  tick spec 8
+@    xaxis  tick major 0, 1.3567e+09
+@    xaxis  ticklabel 0, "2013"
+@    xaxis  tick major 1, 1.3885e+09
+@    xaxis  ticklabel 1, "2014"
+@    xaxis  tick major 2, 1.42e+09
+@    xaxis  ticklabel 2, "2015"
+@    xaxis  tick major 3, 1.452e+09
+@    xaxis  ticklabel 3, "2016"
+@    xaxis  tick major 4, 1.4832e+09
+@    xaxis  ticklabel 4, "2017"
+@    xaxis  tick major 5, 1.515e+09
+@    xaxis  ticklabel 5, "2018"
+@    xaxis  tick major 6, 1.546e+09
+@    xaxis  ticklabel 6, "2019"
+@    xaxis  tick major 7, 1.578e+09
+@    xaxis  ticklabel 7, "2020"
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "\f{Symbol}b"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.600000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 0.1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.5, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s1 hidden false
+@    s1 type xydy
+@    s1 symbol 1
+@    s1 symbol size 0.350000
+@    s1 symbol color 1
+@    s1 symbol pattern 1
+@    s1 symbol fill color 1
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 1
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/cygdrive/f/R/RUGARCH/Bitstamp20200621/Filtered-R/Daily-548/beta-utime"
+@    s1 legend  ""
+@g2 on
+@g2 hidden false
+@g2 type XY
+@g2 stacked false
+@g2 bar hgap 0.000000
+@g2 fixedpoint off
+@g2 fixedpoint type 0
+@g2 fixedpoint xy 0.000000, 0.000000
+@g2 fixedpoint format general general
+@g2 fixedpoint prec 6, 6
+@with g2
+@    world 1350000000, -0.1, 1600000000, 4
+@    stack world 0, 0, 0, 0
+@    znorm 1
+@    view 0.150000, 0.050000, 1.144118, 0.314706
+@    title ""
+@    title font 0
+@    title size 1.500000
+@    title color 1
+@    subtitle ""
+@    subtitle font 0
+@    subtitle size 1.000000
+@    subtitle color 1
+@    xaxes scale Normal
+@    yaxes scale Normal
+@    xaxes invert off
+@    yaxes invert off
+@    xaxis  on
+@    xaxis  type zero false
+@    xaxis  offset 0.000000 , 0.000000
+@    xaxis  bar on
+@    xaxis  bar color 1
+@    xaxis  bar linestyle 1
+@    xaxis  bar linewidth 1.0
+@    xaxis  label ""
+@    xaxis  label layout para
+@    xaxis  label place auto
+@    xaxis  label char size 1.000000
+@    xaxis  label font 0
+@    xaxis  label color 1
+@    xaxis  label place normal
+@    xaxis  tick on
+@    xaxis  tick major 50000000
+@    xaxis  tick minor ticks 1
+@    xaxis  tick default 6
+@    xaxis  tick place rounded true
+@    xaxis  tick in
+@    xaxis  tick major size 1.000000
+@    xaxis  tick major color 1
+@    xaxis  tick major linewidth 1.0
+@    xaxis  tick major linestyle 1
+@    xaxis  tick major grid off
+@    xaxis  tick minor color 1
+@    xaxis  tick minor linewidth 1.0
+@    xaxis  tick minor linestyle 1
+@    xaxis  tick minor grid off
+@    xaxis  tick minor size 0.500000
+@    xaxis  ticklabel on
+@    xaxis  ticklabel format general
+@    xaxis  ticklabel prec 5
+@    xaxis  ticklabel formula ""
+@    xaxis  ticklabel append ""
+@    xaxis  ticklabel prepend ""
+@    xaxis  ticklabel angle 0
+@    xaxis  ticklabel skip 0
+@    xaxis  ticklabel stagger 0
+@    xaxis  ticklabel place normal
+@    xaxis  ticklabel offset auto
+@    xaxis  ticklabel offset 0.000000 , 0.010000
+@    xaxis  ticklabel start type auto
+@    xaxis  ticklabel start 0.000000
+@    xaxis  ticklabel stop type auto
+@    xaxis  ticklabel stop 0.000000
+@    xaxis  ticklabel char size 1.400000
+@    xaxis  ticklabel font 0
+@    xaxis  ticklabel color 1
+@    xaxis  tick place both
+@    xaxis  tick spec type both
+@    xaxis  tick spec 8
+@    xaxis  tick major 0, 1.3567e+09
+@    xaxis  ticklabel 0, "2013"
+@    xaxis  tick major 1, 1.3885e+09
+@    xaxis  ticklabel 1, "2014"
+@    xaxis  tick major 2, 1.42e+09
+@    xaxis  ticklabel 2, "2015"
+@    xaxis  tick major 3, 1.452e+09
+@    xaxis  ticklabel 3, "2016"
+@    xaxis  tick major 4, 1.4832e+09
+@    xaxis  ticklabel 4, "2017"
+@    xaxis  tick major 5, 1.515e+09
+@    xaxis  ticklabel 5, "2018"
+@    xaxis  tick major 6, 1.546e+09
+@    xaxis  ticklabel 6, "2019"
+@    xaxis  tick major 7, 1.578e+09
+@    xaxis  ticklabel 7, "2020"
+@    yaxis  on
+@    yaxis  type zero false
+@    yaxis  offset 0.000000 , 0.000000
+@    yaxis  bar on
+@    yaxis  bar color 1
+@    yaxis  bar linestyle 1
+@    yaxis  bar linewidth 1.0
+@    yaxis  label "\f{Symbol}w"
+@    yaxis  label layout para
+@    yaxis  label place auto
+@    yaxis  label char size 1.600000
+@    yaxis  label font 0
+@    yaxis  label color 1
+@    yaxis  label place normal
+@    yaxis  tick on
+@    yaxis  tick major 1
+@    yaxis  tick minor ticks 1
+@    yaxis  tick default 6
+@    yaxis  tick place rounded true
+@    yaxis  tick in
+@    yaxis  tick major size 1.000000
+@    yaxis  tick major color 1
+@    yaxis  tick major linewidth 1.0
+@    yaxis  tick major linestyle 1
+@    yaxis  tick major grid off
+@    yaxis  tick minor color 1
+@    yaxis  tick minor linewidth 1.0
+@    yaxis  tick minor linestyle 1
+@    yaxis  tick minor grid off
+@    yaxis  tick minor size 0.500000
+@    yaxis  ticklabel on
+@    yaxis  ticklabel format general
+@    yaxis  ticklabel prec 5
+@    yaxis  ticklabel formula ""
+@    yaxis  ticklabel append ""
+@    yaxis  ticklabel prepend ""
+@    yaxis  ticklabel angle 0
+@    yaxis  ticklabel skip 0
+@    yaxis  ticklabel stagger 0
+@    yaxis  ticklabel place normal
+@    yaxis  ticklabel offset auto
+@    yaxis  ticklabel offset 0.000000 , 0.010000
+@    yaxis  ticklabel start type auto
+@    yaxis  ticklabel start 0.000000
+@    yaxis  ticklabel stop type auto
+@    yaxis  ticklabel stop 0.000000
+@    yaxis  ticklabel char size 1.400000
+@    yaxis  ticklabel font 0
+@    yaxis  ticklabel color 1
+@    yaxis  tick place both
+@    yaxis  tick spec type none
+@    altxaxis  off
+@    altyaxis  off
+@    legend on
+@    legend loctype view
+@    legend 0.5, 0.8
+@    legend box color 1
+@    legend box pattern 1
+@    legend box linewidth 1.0
+@    legend box linestyle 1
+@    legend box fill color 0
+@    legend box fill pattern 1
+@    legend font 0
+@    legend char size 1.000000
+@    legend color 1
+@    legend length 4
+@    legend vgap 1
+@    legend hgap 1
+@    legend invert false
+@    frame type 0
+@    frame linestyle 1
+@    frame linewidth 1.0
+@    frame color 1
+@    frame pattern 1
+@    frame background color 0
+@    frame background pattern 0
+@    s1 hidden false
+@    s1 type xydy
+@    s1 symbol 1
+@    s1 symbol size 0.350000
+@    s1 symbol color 1
+@    s1 symbol pattern 1
+@    s1 symbol fill color 1
+@    s1 symbol fill pattern 0
+@    s1 symbol linewidth 1.0
+@    s1 symbol linestyle 1
+@    s1 symbol char 65
+@    s1 symbol char font 0
+@    s1 symbol skip 0
+@    s1 line type 1
+@    s1 line linestyle 1
+@    s1 line linewidth 1.0
+@    s1 line color 1
+@    s1 line pattern 1
+@    s1 baseline type 0
+@    s1 baseline off
+@    s1 dropline off
+@    s1 fill type 0
+@    s1 fill rule 0
+@    s1 fill color 1
+@    s1 fill pattern 1
+@    s1 avalue off
+@    s1 avalue type 2
+@    s1 avalue char size 1.000000
+@    s1 avalue font 0
+@    s1 avalue color 1
+@    s1 avalue rot 0
+@    s1 avalue format general
+@    s1 avalue prec 3
+@    s1 avalue prepend ""
+@    s1 avalue append ""
+@    s1 avalue offset 0.000000 , 0.000000
+@    s1 errorbar on
+@    s1 errorbar place both
+@    s1 errorbar color 1
+@    s1 errorbar pattern 1
+@    s1 errorbar size 1.000000
+@    s1 errorbar linewidth 1.0
+@    s1 errorbar linestyle 1
+@    s1 errorbar riser linewidth 1.0
+@    s1 errorbar riser linestyle 1
+@    s1 errorbar riser clip off
+@    s1 errorbar riser clip length 0.100000
+@    s1 comment "/cygdrive/f/R/RUGARCH/Bitstamp20200621/Filtered-R/Daily-548/omega-utime"
+@    s1 legend  ""
+@target G0.S1
+@type xydy
+1.3633056e+09 0.228024 0.064985
+1.3658976e+09 0.281947 0.060562
+1.3684896e+09 0.29704 0.0628
+1.3710816e+09 0.295209 0.062389
+1.3736736e+09 0.283288 0.060093
+1.3762656e+09 0.294042 0.066848
+1.3788576e+09 0.305639 0.070444
+1.3814496e+09 0.328783 0.078526
+1.3840416e+09 0.374963 0.081635
+1.3866336e+09 0.347065 0.076097
+1.3892256e+09 0.3532 0.077832
+1.3918176e+09 0.328699 0.074347
+1.3944096e+09 0.269643 0.0626
+1.3970016e+09 0.27543 0.067711
+1.3995936e+09 0.2765 0.068168
+1.4021856e+09 0.3249 0.083388
+1.4047776e+09 0.38294 0.121797
+1.4073696e+09 0.302937 0.099372
+1.4099616e+09 0.333454 0.108279
+1.4125536e+09 0.281578 0.090858
+1.4151456e+09 0.243219 0.096071
+1.4177376e+09 0.251553 0.089147
+1.4203296e+09 0.258024 0.099514
+1.4229216e+09 0.273432 0.108622
+1.4255136e+09 0.332238 0.126858
+1.4281056e+09 0.297348 0.123024
+1.4306976e+09 0.192926 0.083677
+1.4332896e+09 0.081523 0.056699
+1.4358816e+09 0.070589 0.050262
+1.4384736e+09 0.075725 0.049996
+1.4410656e+09 0.071108 0.052263
+1.4436576e+09 0.124052 0.064437
+1.4462496e+09 0.15549 0.077583
+1.4488416e+09 0.229112 0.112293
+1.4514336e+09 0.219341 0.095507
+1.4540256e+09 0.233731 0.10584
+1.4566176e+09 0.235731 0.104574
+1.4592096e+09 0.205738 0.085749
+1.4618016e+09 0.20045 0.068133
+1.4643936e+09 0.192598 0.062487
+1.4669856e+09 0.18374 0.052776
+1.4695776e+09 0.22261 0.06307
+1.4721696e+09 0.22549 0.065917
+1.4747616e+09 0.24036 0.071608
+1.4773536e+09 0.21432 0.059538
+1.4799456e+09 0.22614 0.056875
+1.4825376e+09 0.25101 0.064512
+1.4851296e+09 0.23845 0.058033
+1.4877216e+09 0.24555 0.063409
+1.4903136e+09 0.27947 0.059532
+1.4929056e+09 0.24846 0.057831
+1.4954976e+09 0.25484 0.056754
+1.4980896e+09 0.26869 0.055356
+1.5006816e+09 0.264417 0.052593
+1.5032736e+09 0.270951 0.054426
+1.5058656e+09 0.29455 0.055758
+1.5084576e+09 0.254538 0.052515
+1.5110496e+09 0.246156 0.050053
+1.5136416e+09 0.246426 0.050194
+1.5162336e+09 0.224935 0.045237
+1.5188256e+09 0.208593 0.041511
+1.5214176e+09 0.219642 0.050571
+1.5240096e+09 0.179226 0.053467
+1.5266016e+09 0.181516 0.058217
+1.5291936e+09 0.141826 0.059744
+1.5317856e+09 0.113594 0.046933
+1.5343776e+09 0.097657 0.044855
+1.5369696e+09 0.104793 0.043124
+1.5395616e+09 0.046883 0.005847
+1.5421536e+09 0.061947 0.018594
+1.5447456e+09 0.053313 0.015639
+1.5473376e+09 0.054607 0.016328
+1.5499296e+09 0.066825 0.02056
+1.5525216e+09 0.067797 0.01929
+1.5551136e+09 0.065453 0.018286
+1.5577056e+09 0.06239 0.017913
+1.5602976e+09 0.065575 0.019977
+1.5628896e+09 0.074158 0.021834
+1.5654816e+09 0.093866 0.026442
+1.5680736e+09 0.085732 0.024755
+1.5706656e+09 0.090376 0.02572
+1.5732576e+09 0.085811 0.026077
+1.5758496e+09 0.086876 0.026281
+1.5784416e+09 0.084014 0.025273
+1.5810336e+09 0.085909 0.025615
+1.5836256e+09 0.094986 0.029313
+1.5862176e+09 0.137019 0.04782
+1.5888096e+09 0.103856 0.045299
+1.5914016e+09 0.096141 0.04137
+&
+@target G1.S1
+@type xydy
+1.3633056e+09 0.848054 0.057333
+1.3658976e+09 0.812812 0.046385
+1.3684896e+09 0.787 0.043716
+1.3710816e+09 0.784132 0.045558
+1.3736736e+09 0.754705 0.04371
+1.3762656e+09 0.751427 0.043677
+1.3788576e+09 0.746698 0.045096
+1.3814496e+09 0.719361 0.057053
+1.3840416e+09 0.685254 0.060158
+1.3866336e+09 0.711008 0.055981
+1.3892256e+09 0.70247 0.058648
+1.3918176e+09 0.71925 0.058471
+1.3944096e+09 0.765103 0.058948
+1.3970016e+09 0.763493 0.066784
+1.3995936e+09 0.757786 0.071843
+1.4021856e+09 0.7271 0.089875
+1.4047776e+09 0.67151 0.092519
+1.4073696e+09 0.738735 0.088551
+1.4099616e+09 0.69927 0.085365
+1.4125536e+09 0.702843 0.073982
+1.4151456e+09 0.736763 0.088539
+1.4177376e+09 0.728874 0.076125
+1.4203296e+09 0.734089 0.079719
+1.4229216e+09 0.720528 0.10241
+1.4255136e+09 0.684782 0.105532
+1.4281056e+09 0.710592 0.097704
+1.4306976e+09 0.781385 0.05962
+1.4332896e+09 0.820129 0.044055
+1.4358816e+09 0.848564 0.042139
+1.4384736e+09 0.8308 0.045699
+1.4410656e+09 0.854608 0.047649
+1.4436576e+09 0.82534 0.046046
+1.4462496e+09 0.819221 0.051847
+1.4488416e+09 0.759669 0.074564
+1.4514336e+09 0.78269 0.061745
+1.4540256e+09 0.780726 0.068746
+1.4566176e+09 0.802189 0.061669
+1.4592096e+09 0.837489 0.049627
+1.4618016e+09 0.85033 0.041975
+1.4643936e+09 0.857337 0.0395
+1.4669856e+09 0.875182 0.03143
+1.4695776e+09 0.8636 0.030923
+1.4721696e+09 0.8604 0.0373
+1.4747616e+09 0.84797 0.039731
+1.4773536e+09 0.86865 0.034346
+1.4799456e+09 0.8657 0.036966
+1.4825376e+09 0.85105 0.037419
+1.4851296e+09 0.86023 0.035005
+1.4877216e+09 0.86442 0.034453
+1.4903136e+09 0.83166 0.041518
+1.4929056e+09 0.84669 0.03434
+1.4954976e+09 0.84585 0.035904
+1.4980896e+09 0.83928 0.038559
+1.5006816e+09 0.824361 0.039232
+1.5032736e+09 0.816752 0.037152
+1.5058656e+09 0.78406 0.037565
+1.5084576e+09 0.810564 0.039319
+1.5110496e+09 0.804274 0.040534
+1.5136416e+09 0.799751 0.037468
+1.5162336e+09 0.821253 0.040093
+1.5188256e+09 0.815977 0.034433
+1.5214176e+09 0.78958 0.035975
+1.5240096e+09 0.816069 0.0407
+1.5266016e+09 0.799104 0.038088
+1.5291936e+09 0.80032 0.047332
+1.5317856e+09 0.829207 0.040586
+1.5343776e+09 0.818528 0.047419
+1.5369696e+09 0.843282 0.043978
+1.5395616e+09 0.965449 0.022699
+1.5421536e+09 0.942693 0.016159
+1.5447456e+09 0.938162 0.013675
+1.5473376e+09 0.938774 0.012999
+1.5499296e+09 0.930968 0.018501
+1.5525216e+09 0.931971 0.013412
+1.5551136e+09 0.933594 0.012059
+1.5577056e+09 0.935799 0.011577
+1.5602976e+09 0.929269 0.016855
+1.5628896e+09 0.925535 0.01867
+1.5654816e+09 0.920558 0.020738
+1.5680736e+09 0.92475 0.018917
+1.5706656e+09 0.922524 0.021471
+1.5732576e+09 0.919781 0.023906
+1.5758496e+09 0.919958 0.024122
+1.5784416e+09 0.922247 0.025178
+1.5810336e+09 0.921065 0.02581
+1.5836256e+09 0.911995 0.046833
+1.5862176e+09 0.873911 0.088098
+1.5888096e+09 0.890786 0.059663
+1.5914016e+09 0.926481 0.043855
+&
+@target G2.S1
+@type xydy
+1.3633056e+09 0.23534 0.17486
+1.3658976e+09 0.259134 0.156661
+1.3684896e+09 0.25516 0.135922
+1.3710816e+09 0.270158 0.148641
+1.3736736e+09 0.352607 0.177953
+1.3762656e+09 0.394307 0.189719
+1.3788576e+09 0.424228 0.197588
+1.3814496e+09 0.581526 0.272247
+1.3840416e+09 0.648464 0.307505
+1.3866336e+09 0.601255 0.291952
+1.3892256e+09 0.62791 0.317368
+1.3918176e+09 0.548102 0.288769
+1.3944096e+09 0.411227 0.270438
+1.3970016e+09 0.430404 0.327505
+1.3995936e+09 0.612792 0.518226
+1.4021856e+09 1.21059 0.962686
+1.4047776e+09 2.82902 1.356788
+1.4073696e+09 1.413688 0.951509
+1.4099616e+09 1.487224 0.826816
+1.4125536e+09 1.40377 0.710203
+1.4151456e+09 1.36041 0.864
+1.4177376e+09 1.334051 0.748613
+1.4203296e+09 1.347439 0.759606
+1.4229216e+09 1.511131 1.00694
+1.4255136e+09 1.771668 1.102639
+1.4281056e+09 1.819467 1.098256
+1.4306976e+09 1.169642 0.651474
+1.4332896e+09 0.765981 0.424803
+1.4358816e+09 0.538976 0.317207
+1.4384736e+09 0.764282 0.40946
+1.4410656e+09 0.719051 0.399345
+1.4436576e+09 0.567475 0.305976
+1.4462496e+09 0.55826 0.296852
+1.4488416e+09 0.757748 0.429438
+1.4514336e+09 0.74476 0.389401
+1.4540256e+09 0.955553 0.523268
+1.4566176e+09 0.924227 0.513943
+1.4592096e+09 0.456846 0.299146
+1.4618016e+09 0.26717 0.178975
+1.4643936e+09 0.248897 0.159906
+1.4669856e+09 0.193109 0.117009
+1.4695776e+09 0.19424 0.111059
+1.4721696e+09 0.2549 0.1485
+1.4747616e+09 0.23171 0.130632
+1.4773536e+09 0.15327 0.089067
+1.4799456e+09 0.1744 0.106204
+1.4825376e+09 0.16219 0.092112
+1.4851296e+09 0.16681 0.093383
+1.4877216e+09 0.13912 0.074601
+1.4903136e+09 0.16492 0.091092
+1.4929056e+09 0.13997 0.075039
+1.4954976e+09 0.14108 0.078428
+1.4980896e+09 0.12457 0.070871
+1.5006816e+09 0.111085 0.066099
+1.5032736e+09 0.118936 0.064014
+1.5058656e+09 0.17126 0.085554
+1.5084576e+09 0.171471 0.109308
+1.5110496e+09 0.171403 0.122021
+1.5136416e+09 0.162859 0.107535
+1.5162336e+09 0.130905 0.10234
+1.5188256e+09 0.146344 0.116039
+1.5214176e+09 0.326588 0.22631
+1.5240096e+09 0.49738 0.387934
+1.5266016e+09 0.638132 0.441162
+1.5291936e+09 1.274434 0.635843
+1.5317856e+09 0.940212 0.491351
+1.5343776e+09 1.356329 0.675158
+1.5369696e+09 0.960451 0.551752
+1.5395616e+09 6e-06 0.004311
+1.5421536e+09 0 0.000503
+1.5447456e+09 1e-06 0.001709
+1.5473376e+09 0 0.001369
+1.5499296e+09 0.000748 0.054868
+1.5525216e+09 1e-06 0.001696
+1.5551136e+09 1e-06 0.001544
+1.5577056e+09 1e-06 0.001693
+1.5602976e+09 0.008394 0.057474
+1.5628896e+09 0.020651 0.067655
+1.5654816e+09 0.034888 0.075117
+1.5680736e+09 0.036039 0.076814
+1.5706656e+09 0.06056 0.102113
+1.5732576e+09 0.075178 0.119749
+1.5758496e+09 0.068033 0.113132
+1.5784416e+09 0.07912 0.131291
+1.5810336e+09 0.081998 0.132077
+1.5836256e+09 0.152148 0.277568
+1.5862176e+09 0.475888 0.689318
+1.5888096e+09 0.668859 0.731196
+1.5914016e+09 0.257581 0.398088
+&
